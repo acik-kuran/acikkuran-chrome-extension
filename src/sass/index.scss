@@ -1,0 +1,124 @@
+$control-height: 2.7em !default;
+$control-border-width: 1px !default;
+$control-padding-vertical: calc(0.375em - #{$control-border-width}) !default;
+$control-padding-horizontal: calc(0.825em - #{$control-border-width}) !default;
+
+@import 'bulma/bulma.sass';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.surah-select {
+  text-align: left;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  width: 300px;
+  height: 260px;
+  background-color: #fff;
+  // border: 1px solid #eee; /* just development
+  & * {
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    color: #000;
+    font-size: 1em !important;
+  }
+  #root {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.header {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  .logo {
+    opacity: 1;
+    padding-top: 3px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  .social-links {
+    svg {
+      opacity: 1;
+      font-size: 1.15em !important;
+      margin-right: 8px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+.content {
+  flex-grow: 1;
+  width: 250px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  &:focus {
+    border: 1px solid #ddd;
+  }
+
+  .panel {
+    width: 100%;
+  }
+
+  .tabs {
+    ul {
+      border-bottom: $panel-item-border;
+      margin: 0;
+      li {
+        width: 50%;
+        a {
+          padding: 0.75em 1em;
+        }
+      }
+      // why?
+      li + li {
+        margin: 0;
+      }
+    }
+  }
+
+  .search {
+    margin-bottom: 0.75em;
+  }
+
+  .panel-block {
+    padding: 0.75em;
+  }
+}
+
+.tabs {
+  margin-bottom: 0 !important;
+
+  em {
+    color: $grey-light;
+    font-style: normal;
+  }
+}
+
+.container {
+  width: 100%;
+}
