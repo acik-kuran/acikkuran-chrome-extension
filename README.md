@@ -1,5 +1,5 @@
 <p align="center"><img src="https://raw.githubusercontent.com/ziegfiroyt/acikkuran-api/master/logo.png" alt="Apaçık Kur'an'a andolsun!" /></p>
-<h2 align="center"><a href="https://chrome.google.com/webstore/detail/a%C3%A7%C4%B1k-kuran/mkiffgikldgogelcomdbodadldajaaob">Açık Kuran Chrome Extension</a></h2>
+<h2 align="center"><a href="https://chrome.google.com/webstore/detail/a%C3%A7%C4%B1k-kuran/mkiffgikldgogelcomdbodadldajaaob">Açık Kuran Chrome Extension v1.0</a></h2>
 <p align="center"><a href="https://chrome.google.com/webstore/detail/a%C3%A7%C4%B1k-kuran/mkiffgikldgogelcomdbodadldajaaob"><img src="https://lh3.googleusercontent.com/uVJkEpOnTLaUo0eKKE3SeKiIR7_7eCc51C3Dr7dPPM3BS4ixAckfQNocMJ8uc56O030SPSVe=w640-h400-e365" /></a></p>
 <hr size="1" />
 <p align="center"><a href="https://acikkuran.com">https://acikkuran.com</a></p>
