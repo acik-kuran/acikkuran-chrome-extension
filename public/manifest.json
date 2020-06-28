@@ -1,7 +1,7 @@
 {
   "name": "Açık Kuran",
   "description": "Allah gerçeği kelimeleriyle ortaya çıkartır. Suçlular hoşlanmasa da. (10:82)",
-  "version": "1.0",
+  "version": "1.1.0",
   "manifest_version": 2,
   "permissions": [],
   "browser_action": {

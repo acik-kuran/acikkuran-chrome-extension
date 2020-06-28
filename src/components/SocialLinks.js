@@ -7,7 +7,8 @@ import {
   faFacebook,
   faTwitter,
   faInstagram,
-  faGithubAlt
+  faGithubAlt,
+  faPatreon
 } from '@fortawesome/free-brands-svg-icons';
 import { goToUrl } from '../utils/functions';
 
@@ -32,6 +33,7 @@ const SocialIcons = () => {
         icon={faGithubAlt}
       />
       <SocialIcon url="https://facebook.com/acikkuran" icon={faFacebook} />
+      <SocialIcon url="https://patreon.com/acikkuran" icon={faPatreon} />
     </div>
   );
 };
