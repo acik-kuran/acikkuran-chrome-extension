@@ -49,11 +49,19 @@ body {
   align-items: center;
   padding: 10px;
   .logo {
+    a {
+      line-height: 0;
+      display: block;
+    }
     opacity: 1;
-    padding-top: 3px;
+    padding-top: 4px;
     cursor: pointer;
     &:hover {
       opacity: 0.6;
+    }
+    svg {
+      fill: #000;
+      width: 56px
     }
   }
   .social-links {
